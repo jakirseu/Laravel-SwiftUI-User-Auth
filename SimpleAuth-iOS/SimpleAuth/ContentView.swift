@@ -37,6 +37,7 @@ struct ContentView: View {
                 } content: {
                     
                     VStack{
+                        TextField("Name", text: $name)
                         TextField("Email", text: $email)
                         TextField("Password", text: $password )
                         Button("Register") {
